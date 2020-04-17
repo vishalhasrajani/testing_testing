@@ -23,7 +23,7 @@ stuLL_t* createNodeLinkedList(void)
 	
 	
 	stuLL_t *pNew=(stuLL_t*)malloc(sizeof(stuLL_t)); // dynamic memory allocation using malloc
-	return pNew;
+	return pNew; //returning pNew
 	
 	
 	//	       NOTE: PLEASE COMMIT CHANGES ONCE YOUR DONE THIS FUNCTION
