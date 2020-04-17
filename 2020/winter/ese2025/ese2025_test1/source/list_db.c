@@ -20,6 +20,12 @@
 stuLL_t* createNodeLinkedList(void)
 {
 	// PROBLEM #1: complete the code for this function
+	
+	
+	stuLL_t *pNew=(stuLL_t*)malloc(sizeof(stuLL_t)); // dynamic memory allocation using malloc
+	return pNew;
+	
+	
 	//	       NOTE: PLEASE COMMIT CHANGES ONCE YOUR DONE THIS FUNCTION
 }
 
