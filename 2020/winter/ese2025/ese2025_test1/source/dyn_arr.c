@@ -23,6 +23,31 @@ int comparo_fName(const void *pA, const void *pB)
 {
 
 	// PROBLEM #3: complete the code for this function
+	
+	    int A;
+	    // extracting  student records
+	        stuDA_t student_A = *((stuDA_t*) pA);
+		stuDA_t student_B = *((stuDA_t*) pB);
+
+		// get student given family names
+		char *fName_A = student_A.data.fName;
+		char *fName_B = student_B.data.fName;
+
+		A= strcmp(fName_A, fName_B);
+		if(A>0)
+		{
+			return 1; 
+		}
+		else if(A<0)
+		{
+			return -1; 
+		}
+		else
+		{
+			return 0;  
+		}
+
+
 	//	       NOTE: PLEASE COMMIT CHANGES ONCE YOUR DONE THIS FUNCTION
 }
 
