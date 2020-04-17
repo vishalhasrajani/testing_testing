@@ -36,15 +36,15 @@ int comparo_fName(const void *pA, const void *pB)
 		A= strcmp(fName_A, fName_B);
 		if(A>0)
 		{
-			return 1; 
+			return 1;  // if A>0 means fName_A goes after fName_B
 		}
 		else if(A<0)
 		{
-			return -1; 
+			return -1; //if A<0 means fName_A goes before fName_B
 		}
 		else
 		{
-			return 0;  
+			return 0;  //equal
 		}
 
 
